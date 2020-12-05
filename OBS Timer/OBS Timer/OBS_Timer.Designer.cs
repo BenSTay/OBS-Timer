@@ -150,14 +150,16 @@ namespace OBS_Timer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 349);
+            this.ClientSize = new System.Drawing.Size(391, 343);
             this.Controls.Add(this.startStopButton);
             this.Controls.Add(this.messageBox);
             this.Controls.Add(this.endTimeBox);
             this.Controls.Add(this.timerBox);
             this.Controls.Add(this.clockBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Timer_Form";
-            this.Text = "Form1";
+            this.Text = "OBS Timer";
             this.clockBox.ResumeLayout(false);
             this.clockBox.PerformLayout();
             this.timerBox.ResumeLayout(false);
