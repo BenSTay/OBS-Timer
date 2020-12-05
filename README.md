@@ -1,6 +1,6 @@
 # OBS-Timer
 
-![Screenshot](./screenshot.avif)
+![Screenshot](./screenshot.webp)
 
 ## Author: Benjamin Taylor
 Countdown Timer for OBS, based on [mikbe/OBS_Timer](https://github.com/mikbe/OBS_Timer).
